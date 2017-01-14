@@ -95,6 +95,9 @@ class BBP_JSON_Replies extends WP_JSON_CustomPostType {
 			if ( !empty( $topic_id ) ) {
 				bbp_update_topic( $topic_id );
 			}
+
+			// Update last status meta info
+            bbp_update_reply_walker( $post['ID'] );
 		}
 	}
 }
