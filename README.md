@@ -18,6 +18,6 @@ Example endpoints:
 Usage
 =====
 
-Install an activate like any other WordPress plugin.
+Install and activate like any other WordPress plugin.
 
 Alpha version. Use in development environments only.
